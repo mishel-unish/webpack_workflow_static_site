@@ -1,0 +1,27 @@
+{
+	"name": "webpack_workflow_static_site",
+	"version": "1.0.0",
+	"description": "Webpack workflow boilerplate for static sites",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mishel-unish/webpack_workflow_static_site.git"
+	},
+	"keywords": [
+		"webpack",
+		"boilerplate"
+	],
+	"author": "Mishel <mishel.unish@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mishel-unish/webpack_workflow_static_site/issues"
+	},
+	"homepage": "https://github.com/mishel-unish/webpack_workflow_static_site#readme",
+	"devDependencies": {
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.10"
+	}
+}

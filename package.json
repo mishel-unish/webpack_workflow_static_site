@@ -4,7 +4,7 @@
 	"description": "Webpack workflow boilerplate for static sites",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack"
+		"start": "webpack --config webpack.config.js"
 	},
 	"repository": {
 		"type": "git",
@@ -21,7 +21,9 @@
 	},
 	"homepage": "https://github.com/mishel-unish/webpack_workflow_static_site#readme",
 	"devDependencies": {
-		"webpack": "^4.41.5",
-		"webpack-cli": "^3.3.10"
-	}
+		"html-webpack-plugin": "^4.3.0",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12"
+	},
+	"dependencies": {}
 }
